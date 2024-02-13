@@ -10,7 +10,7 @@ The repository contains code implementation and dataset for paper **Multilingual
 
 Datasets for behavioral fine-tuning:
 - sarcasm and irony detection dataset [link](https://www.kaggle.com/datasets/nikhiljohnk/tweets-with-sarcasm-and-irony)
-- wuestion type classification dataset [link](https://www.kaggle.com/datasets/ananthu017/question-classification)
+- question type classification dataset [link](https://www.kaggle.com/datasets/ananthu017/question-classification)
 
 After downloading datasets, create 3 files *train.csv*, *val.csv*, *test.csv* and save the in the folder inside the `data` folder. Each file should contain two colimns: 'text' and 'label'.
 

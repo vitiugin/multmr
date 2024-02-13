@@ -14,7 +14,7 @@ os.environ["PYTORCH_CUDA_ALLOC_CONF"] = "max_split_size_mb:512"
 
 # arguments
 pretrained_model_name = sys.argv[1]
-data_folder = sys.argv[1]
+data_folder = sys.argv[2]
 finetuned_model_name = sys.argv[3]
 
 def compute_metrics(eval_pred):
